@@ -1,0 +1,445 @@
+
+/* For PCs */
+@media (min-width: 1025px) {
+
+.navbar {
+  position:relative;
+  top: -5%;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+
+.logo {
+  position: absolute; 
+  left: 20px; 
+  top: 40%; 
+  transform: translateY(-50%); 
+}
+
+.container {
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav-links li a:hover {
+  color: #f6f6f6;
+  background-color: #000000;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+  .text1{
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+  }
+
+  .img1{
+    position: absolute;
+    top: 0%;
+    right: 20px;
+    border-radius: 30px;
+  }
+
+  .work {
+    text-decoration: none;
+    color: #f6f6f6;
+    background-color: #000000;
+    padding: 20px;
+    font-size: 25px;
+    position: absolute;
+    left: 400px;
+    top: 650px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition:  0.7s; 
+  }
+
+  
+  .work:hover {
+    border-radius: 40px;
+    background-color: rgb(108, 108, 95);
+    color:#ffffff;
+  }
+  
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  top: 1700px;
+  width: 100%;
+  left: 0;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 25px;
+  top: 0px;
+}
+
+.footer p {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 35px;
+}
+
+
+#map-container {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  width: 50%;
+  height: 20%;
+  border-radius: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.animation {
+  position: relative;
+  display: flex;
+}
+
+.animation .dynamic-txts {
+  position: absolute; /* Set position to absolute */
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+.dynamic-txts li {
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: absolute; /* Set position to absolute */
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+
+
+@keyframes typing {
+  40%, 60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+
+.port{
+
+position: absolute;
+left: 100px;
+top: 1000px;
+text-align: center;
+
+
+}
+
+
+
+}
+
+
+
+@media (max-width: 767px){
+
+
+.navbar {
+  top: 0%;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+
+.logo {
+  position: absolute; 
+  left: 20px; 
+  top: 11%; 
+  width: 70px;
+  height: 70px;
+  transform: translateY(-50%
+  ); 
+}
+
+.container {
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav-links li a:hover {
+  color: #f6f6f6;
+  background-color: #000000;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+  .text1{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .img1{
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    border-radius: 30px;
+    width: 330px;
+    height: 500px;
+
+  }
+
+  .work {
+    text-decoration: none;
+    color: #f6f6f6;
+    background-color: #000000;
+    padding: 20px;
+    font-size: 15px;
+    position: absolute;
+    left: 150px;
+    top: 850px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition:  0.7s; 
+  }
+
+  
+  .work:hover {
+    border-radius: 40px;
+    background-color: rgb(108, 108, 95);
+    color:#ffffff;
+  }
+  
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  position: absolute;
+  top: 2230px;
+  width: 100%;
+  left: 0;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 25px;
+  top: 0px;
+}
+
+.footer p {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 35px;
+}
+
+
+#map-container {
+  position: absolute;
+  right: 0px;
+  top: 575px;
+  width: 100%;
+  height: 20%;
+  border-radius: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.animation {
+  position: relative;
+  display: flex;
+}
+
+.animation .dynamic-txts {
+  position: absolute; /* Set position to absolute */
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+.dynamic-txts li {
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: absolute; /* Set position to absolute */
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+
+
+@keyframes typing {
+  40%, 60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+
+.port{
+
+position: absolute;
+left: 0px;
+top: 950px;
+text-align: center;
+
+
+}
+
+.web1{
+  width: 430px;
+height: 300px;
+}
+.web2{
+  width: 430px;
+height: 300px;
+}
+.web3{
+  width: 430px;
+height: 300px;
+}
+
+.web4{
+  width: 430px;
+  height: 300px;
+}
+
+}
